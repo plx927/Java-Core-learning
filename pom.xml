@@ -16,6 +16,7 @@
 
     <modules>
         <module>Java-Core-learning-xml</module>
+        <module>Java-Core-learning-reflect</module>
     </modules>
 
 
