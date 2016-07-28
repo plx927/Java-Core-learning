@@ -1,4 +1,4 @@
-package com.panlingxiao.nio.channle;
+package com.panlingxiao.nio.channel;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -12,16 +12,26 @@ import java.nio.channels.FileChannel;
 public class FileChannelTest {
 
     public static void main(String[] args) {
+        readFileByNIO();
+    }
+
+
+    /**
+     * 通过NIO的读取文件数据数据
+     */
+    static void readFileByNIO() {
         FileInputStream fis = null;
         FileChannel fileChannel = null;
         try {
             fis = new FileInputStream("README.MD");
+            /*
+             * NIO是基于Channel和Buffer为基础来对数据进行读写
+             */
             fileChannel  = fis.getChannel();
             ByteBuffer buffer = ByteBuffer.allocate(1024);
-            int len = 0;
-            while (-1 != (len = fileChannel.read(buffer))){
-                System.out.println(new String(buffer.array()));
-            }
+            //通过Channel将数据读取到Buffer中
+            fileChannel.read(buffer);
+            System.out.println(new String(buffer.array()));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

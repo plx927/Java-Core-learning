@@ -8,8 +8,8 @@ import java.nio.ByteBuffer;
 public class BufferTest {
 
     public static void main(String[] args) {
-        //指定buffer最大的存储容量为100,即capacity为100
-        ByteBuffer buffer = ByteBuffer.allocate(100);
+        //指定buffer最大的存储容量为10,即capacity为10
+        ByteBuffer buffer = ByteBuffer.allocate(10);
 
         //默认所创建的Buffer为非DirectBuffer，即HeapByteBuffer
         System.out.println("buffer is direct : "+ buffer.isDirect());
