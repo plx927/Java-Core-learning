@@ -1,4 +1,4 @@
-package com.panlingxiao.relfect;
+package com.panlingxiao.reflect;
 
 import org.junit.Test;
 import org.objectweb.asm.*;
@@ -13,7 +13,7 @@ import java.util.Arrays;
 /**
  * Created by panlingxiao on 2016/7/14.
  */
-public class ReflectTest {
+public class ReflectMethodParamName {
 
 
     class MyClass {
