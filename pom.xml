@@ -17,7 +17,6 @@
     <modules>
         <module>Java-Core-learning-xml</module>
         <module>Java-Core-learning-reflect</module>
-        <module>Java-Core-learning-nio</module>
     </modules>
 
 
