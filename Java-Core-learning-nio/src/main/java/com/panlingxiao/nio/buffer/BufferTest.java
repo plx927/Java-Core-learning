@@ -1,5 +1,7 @@
 package com.panlingxiao.nio.buffer;
 
+import java.nio.BufferOverflowException;
+import java.nio.BufferUnderflowException;
 import java.nio.ByteBuffer;
 
 /**
@@ -38,18 +40,79 @@ public class BufferTest {
          */
         buffer.flip();
         System.out.println("------------flip buffer--------------------------------");
-        System.out.println("buffer position: " + buffer.position());
-        System.out.println("buffer limit : " + buffer.limit());
+        printEssentailProeprtes(buffer);
 
         System.out.println("------------read data from buffer----------------------");
         while(buffer.hasRemaining()){
+            //基于相对位置从Buffer中获取数据,每一次get操作都会引发Buffer的position加1
             System.out.println(buffer.get());
         }
 
+        printEssentailProeprtes(buffer);
+
+        //此时Buffer的position已经等于limit，如果再从Buffer中获取元素,则抛出异常
+        try {
+            buffer.get();
+        } catch (BufferUnderflowException e) {
+            System.out.println("Get data from buffer,but position==limit,so BufferUnderFlow");
+        }
+
+        //此时Buffer的position已经等于limit，如果向Buffer中添加元素,同样会抛出异常
+        try {
+            buffer.put((byte) 4);
+        } catch (BufferOverflowException e) {
+            System.out.println("Put data into buffer,but position==limit,so BufferOverflow");
+        }
+
+
+        /*
+         * 通过Buffer可以根据绝对位置获取数据,这里获取索引为1个元素
+         */
+         byte data = buffer.get(1);
+         System.out.println("index[1] : "+data);
+
+        //根据绝对位置来获取元素时，所指定的position不能大于limit，否则会引发IndexOutOfBoundsException
+        try {
+            buffer.get(6);
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println("Get data from buffer by absolute operation,but index >= limit,so IndexOutOfBoundException");
+        }
+
+        System.out.println("------------bulk read data from buffer----------------------");
+        /*
+         * 通过一个字节数组批量读取数据，当字节的数量大于缓冲区中剩余的字节数时，会抛出BufferUnderflowException
+         * 这种API是属于逆天设计
+         */
+        byte[] dest = new byte[5];
+        //由于此时的position为0，limit为3，Buffer没有足够的数据填充给定的字节数组，因此会抛出异常
+        try {
+            ((ByteBuffer)buffer.flip()).get(dest);
+        } catch (BufferUnderflowException e) {
+            System.out.println("Buffer's remaining byte < given array's length");
+        }
+
+        printEssentailProeprtes(buffer);
+
+        //比较合适的做法，填充字节数组的时候指定填充的长度
+        int remainingLength = buffer.remaining();
+        buffer.get(dest,0,remainingLength);
+        for(int i = 0;i < dest.length;i++){
+            System.out.println("dest["+i+"] : "+dest[i]);
+        }
+
+        printEssentailProeprtes(buffer);
+
+
+
+
+    }
+
+    /**
+     * 显示Buffer的重要属性
+     * @param buffer
+     */
+    private static void printEssentailProeprtes(ByteBuffer buffer) {
         System.out.println("buffer position: "+ buffer.position());
         System.out.println("buffer limit : "+buffer.limit());
-
-
-
     }
 }
