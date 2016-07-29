@@ -23,7 +23,7 @@ public class BufferTest {
         //默认情况下,Buffer的position等于0
         System.out.println("buffer position : " + buffer.position());
 
-
+        System.out.println("------------transfer data into buffer--------------------------------");
         //往Buffer存储3个元素,此时buffer的position会发送改变,position会被修改为3
         buffer.put((byte)1);
         buffer.put((byte) 2);
