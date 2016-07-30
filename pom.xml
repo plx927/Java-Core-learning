@@ -20,6 +20,7 @@
         <module>Java-Core-learning-security</module>
         <module>Java-Core-learning-nio</module>
         <module>Java-Core-learning-networking</module>
+        <module>Java-Core-learning-collection</module>
     </modules>
 
 
