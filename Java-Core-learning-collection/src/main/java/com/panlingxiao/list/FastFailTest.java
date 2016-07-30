@@ -2,6 +2,7 @@ package com.panlingxiao.list;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -29,15 +30,31 @@ import java.util.List;
 public class FastFailTest {
 
     public static void main(String[] args) {
-        List<String> list = new ArrayList<String>(Arrays.asList(new String[]{"hello","word","Java"}));
+        List<String> list = new ArrayList<String>(Arrays.asList(new String[]{"hello","world","Java"}));
+        /*
+         * 该方式底层使用的是Iterator的方式对数据进行迭代
+         */
         for(String str : list){
-            /*这种情况下为什么不抛异常
+            /*这种情况下为什么不抛异常*/
             if("world".equals(str)){
                 list.add("JDK");
             }
-            */
+
             list.add("aa");
         }
+
+        /*
+         * ArrayList底层维护了一个ModCount，这个值是记录结构化修改的次数，对集合的add、remove操作都会引发modCount值的加1
+         * modCount是定义在AbstractList中的一个属性
+         * 在创建Iterator的时候,Iterator会记录modCount的值，将其等于expectedModCount。
+         */
+        for(Iterator<String> iterator = list.iterator();iterator.hasNext();){
+            iterator.next();
+            //在这里执行了一次结构化操作时，就会引发modCount值的改变
+            list.add("aa");
+        }
+
+
     }
 
 
