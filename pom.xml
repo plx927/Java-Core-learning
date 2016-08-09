@@ -22,6 +22,7 @@
         <module>Java-Core-learning-networking</module>
         <module>Java-Core-learning-collection</module>
         <module>Java-Core-learning-jdbc</module>
+        <module>Java-Core-learning-JVM</module>
     </modules>
 
 
