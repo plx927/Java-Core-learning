@@ -20,4 +20,9 @@ public class ProxySubject implements Subject {
         System.out.println("after invoke");
         return result;
     }
+
+    @Override
+    public void go() {
+
+    }
 }

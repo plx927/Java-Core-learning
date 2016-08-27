@@ -4,6 +4,7 @@ import com.panlingxiao.proxy.RealSubject;
 import com.panlingxiao.proxy.Subject;
 
 import java.lang.reflect.Proxy;
+import java.util.Arrays;
 
 /**
  * Created by panlingxiao on 2016/8/26.
@@ -19,9 +20,18 @@ public class Client {
          *  3.InvocationHandler的实现类
          *
          */
+        System.out.println(Arrays.asList(realSubject.getClass().getInterfaces()));
+
         Subject proxy = (Subject) Proxy.newProxyInstance(Client.class.getClassLoader(), realSubject.getClass().getInterfaces(), new ProxySubject(realSubject));
+
+
         System.out.println(proxy.getClass());
+        //JDK生成的代理对象实现了Subject接口
+        System.out.println(proxy instanceof Subject);
+        //当代理对象在执行方法的时候，这个方法会被编码并且派发给Invocation handler的invoke方法来进行处理
         String result = proxy.sayHello("吴大神");
         System.out.println(result);
+
+        proxy.go();
     }
 }
