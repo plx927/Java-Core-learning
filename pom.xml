@@ -23,6 +23,7 @@
         <module>Java-Core-learning-collection</module>
         <module>Java-Core-learning-jdbc</module>
         <module>Java-Core-learning-JVM</module>
+        <module>Java-Core-learning-jmx</module>
     </modules>
 
 
