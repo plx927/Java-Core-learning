@@ -12,5 +12,14 @@
     <groupId>com.panlingxiao.Java-Core-learning</groupId>
     <artifactId>Java-Core-learning-security</artifactId>
 
+    <dependencies>
 
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk16</artifactId>
+            <version>1.45</version>
+            <scope>compile</scope>
+        </dependency>
+
+    </dependencies>
 </project>
