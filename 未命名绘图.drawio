@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T18:32:45.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-EoKn7fBToNwCd3MqoxR" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-09T18:33:15.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EMaJNa2rdA5BSy5j-FxZ" version="20.0.4" type="github" pages="3">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
     <mxGraphModel dx="1196" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-44" value="网络通信组件" style="shape=umlFrame;whiteSpace=wrap;html=1;width=90;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;fillColor=#fad7ac;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="310" width="240" height="290" as="geometry" />
-        </mxCell>
         <mxCell id="9qpIoXIW9haDFXvM1KQP-30" value="组件管理类" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;strokeColor=#000000;fillColor=#dae8fc;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="270" width="220" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-44" value="网络通信组件" style="shape=umlFrame;whiteSpace=wrap;html=1;width=90;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;fillColor=#fad7ac;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="310" width="240" height="290" as="geometry" />
         </mxCell>
         <mxCell id="9qpIoXIW9haDFXvM1KQP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="s-idyPbzvVlncBuHliUa-1" target="s-idyPbzvVlncBuHliUa-13" edge="1">
           <mxGeometry relative="1" as="geometry">
