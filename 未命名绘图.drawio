@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T18:15:04.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YVSYIFjB5K5WDxA_FrAx" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-09T18:32:28.405Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-F8gwR0XBfmoMhFdGmZI" version="20.0.4" type="github" pages="3">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
     <mxGraphModel dx="1196" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -401,6 +401,9 @@
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-73" value="具体实现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="560" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
