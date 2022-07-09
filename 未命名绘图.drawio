@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T13:32:27.900Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="qUWXv-EzQbKhIIL0iuIE" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-09T13:49:06.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Y8HGcO2J0iEeatM9yVCC" version="20.0.4" type="github" pages="3">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
     <mxGraphModel dx="1196" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-44" value="网络通信组件" style="shape=umlFrame;whiteSpace=wrap;html=1;width=90;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;fillColor=#fad7ac;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="310" width="240" height="310" as="geometry" />
+          <mxGeometry x="30" y="310" width="240" height="290" as="geometry" />
         </mxCell>
         <mxCell id="9qpIoXIW9haDFXvM1KQP-30" value="组件管理类" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;strokeColor=#000000;fillColor=#dae8fc;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="270" width="220" height="360" as="geometry" />
@@ -20,7 +20,14 @@
         <mxCell id="6wlQWtySqtWSVoqvRurm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.522;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="s-idyPbzvVlncBuHliUa-1" target="9qpIoXIW9haDFXvM1KQP-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="495" y="190" />
+              <mxPoint x="495" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.15;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s-idyPbzvVlncBuHliUa-1" target="Ah4ReLh6Q1P7ksSwNjXb-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="66" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -151,7 +158,8 @@
         <mxCell id="9qpIoXIW9haDFXvM1KQP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="s-idyPbzvVlncBuHliUa-16" target="s-idyPbzvVlncBuHliUa-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="510" y="390" />
+              <mxPoint x="630" y="570" />
+              <mxPoint x="630" y="390" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -344,18 +352,24 @@
           <mxGeometry y="20" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-41" value="远程网络通信组件" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="70" y="360" width="150" height="50" as="geometry" />
+          <mxGeometry x="70" y="360" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-43" value="&lt;span style=&quot;&quot;&gt;RemotingServer&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ah4ReLh6Q1P7ksSwNjXb-41">
-          <mxGeometry y="20" width="150" height="30" as="geometry" />
+          <mxGeometry y="20" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-48" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="70" y="540" width="170" height="50" as="geometry" />
+        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-48" value="文件监听组件&#xa;" style="group;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="405" y="435" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-49" value="网络请求处理器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Ah4ReLh6Q1P7ksSwNjXb-48">
+        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-50" value="&lt;span style=&quot;&quot;&gt;FileWatchService&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="Ah4ReLh6Q1P7ksSwNjXb-48">
+          <mxGeometry y="20" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-55" value="" style="group;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="70" y="530" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-56" value="网络请求处理器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Ah4ReLh6Q1P7ksSwNjXb-55">
           <mxGeometry width="170" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-50" value="&lt;span style=&quot;&quot;&gt;DefaultRequestProcessor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Ah4ReLh6Q1P7ksSwNjXb-48">
+        <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-57" value="&lt;span style=&quot;&quot;&gt;DefaultRequestProcessor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Ah4ReLh6Q1P7ksSwNjXb-55">
           <mxGeometry y="20" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
