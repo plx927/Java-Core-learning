@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-09T06:47:29.479Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="EaDw8jBbuejhzPRzXzog" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-09T07:00:27.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="I-w4rfpVBao5SlnbV7Os" version="20.0.4" type="github" pages="2">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
-    <mxGraphModel dx="1298" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
