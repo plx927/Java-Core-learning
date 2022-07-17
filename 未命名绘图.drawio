@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T13:47:21.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="J1kNxAAXedaRGYdUdwH7" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-17T14:04:48.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="l4DxIl5IyGrsCb-pn52V" version="20.0.4" type="github" pages="4">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
     <mxGraphModel dx="1196" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -781,20 +781,115 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cAV5_1yl4BDbng60rxQt-2" value="NettyRemotiongClient" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="110" width="130" height="40" as="geometry" />
+        <mxCell id="cAV5_1yl4BDbng60rxQt-18" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="420" y="10" width="500" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="cAV5_1yl4BDbng60rxQt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cAV5_1yl4BDbng60rxQt-5" target="cAV5_1yl4BDbng60rxQt-7">
+        <mxCell id="cAV5_1yl4BDbng60rxQt-25" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="750" y="150" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-21" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#cdeb8b;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="30" width="140" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.326;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cAV5_1yl4BDbng60rxQt-2" target="cAV5_1yl4BDbng60rxQt-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cAV5_1yl4BDbng60rxQt-5" value="ResponseFuture" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="cAV5_1yl4BDbng60rxQt-20" value="发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="cAV5_1yl4BDbng60rxQt-19">
+          <mxGeometry x="-0.1742" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-2" value="NettyRemotiongClient" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-8" value="put到responseTable中" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;labelBackgroundColor=none;" edge="1" parent="1" source="cAV5_1yl4BDbng60rxQt-5" target="cAV5_1yl4BDbng60rxQt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cAV5_1yl4BDbng60rxQt-5" target="cAV5_1yl4BDbng60rxQt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-5" value="创建ResponseFuture" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="440" y="70" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="cAV5_1yl4BDbng60rxQt-6" value="1.设置请求Id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="570" y="70" width="90" height="30" as="geometry" />
+        <mxCell id="cAV5_1yl4BDbng60rxQt-6" value="设置请求Id" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="30" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cAV5_1yl4BDbng60rxQt-7" value="ResponseFuture" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="440" y="150" width="120" height="40" as="geometry" />
+        <mxCell id="cAV5_1yl4BDbng60rxQt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;labelBackgroundColor=none;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cAV5_1yl4BDbng60rxQt-7" target="cAV5_1yl4BDbng60rxQt-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="195" />
+              <mxPoint x="610" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-15" value="异步写RemotingCommand" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="cAV5_1yl4BDbng60rxQt-14">
+          <mxGeometry x="-0.218" y="2" relative="1" as="geometry">
+            <mxPoint x="18" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cAV5_1yl4BDbng60rxQt-7" target="cAV5_1yl4BDbng60rxQt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-7" value="responseTable" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cAV5_1yl4BDbng60rxQt-11" target="cAV5_1yl4BDbng60rxQt-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-11" value="Channel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="770" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-16" value="ResponseFuture等待&lt;br&gt;业务线程1挂起" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-22" value="业务线程1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-23" value="网络IO" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="765" y="285" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-26" value="IO线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="800" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-28" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
+          <mxGeometry x="70" y="470" width="155" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cAV5_1yl4BDbng60rxQt-29" target="cAV5_1yl4BDbng60rxQt-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-29" value="网络IO" style="whiteSpace=wrap;html=1;fontColor=#000000;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="600" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=#000000;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="cAV5_1yl4BDbng60rxQt-30" target="cAV5_1yl4BDbng60rxQt-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-30" value="Channel" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-32" value="IO线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="85" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-33" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#cdeb8b;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-35" value="responseTable&lt;br&gt;移除ResponseFuture" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="90" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-36" value="设置响应结果" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.865;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;labelBackgroundColor=none;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cAV5_1yl4BDbng60rxQt-37" target="cAV5_1yl4BDbng60rxQt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-39" value="线程唤醒" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="cAV5_1yl4BDbng60rxQt-38">
+          <mxGeometry x="0.4717" y="3" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-37" value="唤醒原来等待的线程" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cAV5_1yl4BDbng60rxQt-41" value="业务线程2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="185" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
