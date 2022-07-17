@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T18:16:08.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KRpKY8sINAZHZ_RaszO3" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-17T18:16:44.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Lsmg_eHukRLuCrrBdr7e" version="20.0.4" type="github" pages="4">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
     <mxGraphModel dx="1196" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -615,6 +615,9 @@
         </mxCell>
         <mxCell id="R35EvjBFJ_EF52CEYh5g-26" value="添加到responseTable中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="509.99882352941194" y="544.9964705882353" as="geometry" />
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-27" value="ResponseFture不会阻塞调用线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="910" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
