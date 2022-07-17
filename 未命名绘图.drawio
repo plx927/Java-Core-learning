@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T17:45:27.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="SMNijHbcVKMFodwPRu0l" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-17T18:16:08.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KRpKY8sINAZHZ_RaszO3" version="20.0.4" type="github" pages="4">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
-    <mxGraphModel dx="1471" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1196" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="1">
+          <mxGeometry x="500" y="820" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="1">
+          <mxGeometry x="500" y="640" width="260" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="s-idyPbzvVlncBuHliUa-13" value="配置类" style="shape=umlFrame;whiteSpace=wrap;html=1;width=60;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1820" y="510" width="230" height="140" as="geometry" />
         </mxCell>
@@ -415,6 +421,11 @@
             <mxPoint x="1000" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-9" value="发送请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="R35EvjBFJ_EF52CEYh5g-4">
+          <mxGeometry x="-0.1744" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-64" value="NettyRemotingAbstract" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#C73500;fillColor=#fa6800;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1170" y="710" width="140" height="60" as="geometry" />
         </mxCell>
@@ -538,6 +549,72 @@
           <mxGeometry x="0.5454" y="4" relative="1" as="geometry">
             <mxPoint x="-44" y="-4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="R35EvjBFJ_EF52CEYh5g-5" target="Ah4ReLh6Q1P7ksSwNjXb-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="635" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-12" value="添加到responseTable中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="R35EvjBFJ_EF52CEYh5g-8">
+          <mxGeometry x="-0.2435" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-5" value="ResponseFuture" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="650" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" target="R35EvjBFJ_EF52CEYh5g-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="925" y="710" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="925" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-16" value="同步发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="R35EvjBFJ_EF52CEYh5g-15">
+          <mxGeometry x="-0.0128" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-17" value="ResponseFture阻塞调用线程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="730" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-18" value="CountDownLatch" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="690" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="R35EvjBFJ_EF52CEYh5g-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="545" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="845" />
+              <mxPoint x="370" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-20" value="semaphoreAsync" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="830" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-21" value="ResponseFuture" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="885" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ah4ReLh6Q1P7ksSwNjXb-106" target="R35EvjBFJ_EF52CEYh5g-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="925" y="790" />
+              <mxPoint x="630" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-24" value="异步发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="R35EvjBFJ_EF52CEYh5g-23">
+          <mxGeometry x="-0.0924" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-26" value="添加到responseTable中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="509.99882352941194" y="544.9964705882353" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
