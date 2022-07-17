@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T18:17:30.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Pgde08ZZ0E_wk8zom3S8" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-17T18:19:29.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="M3O2AnPeyg6S-C46GW6T" version="20.0.4" type="github" pages="4">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
     <mxGraphModel dx="1196" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-29" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1010" width="170" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="R35EvjBFJ_EF52CEYh5g-22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="1">
           <mxGeometry x="500" y="820" width="260" height="150" as="geometry" />
         </mxCell>
@@ -382,13 +385,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="910" y="1060" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="990" y="869" />
+              <mxPoint x="1020" y="869" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gRX_p2emA7Th4d0u0ITd-20" value="注册DefaultReqeustProcessor&lt;br&gt;和RemotingExecutor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="gRX_p2emA7Th4d0u0ITd-18">
           <mxGeometry x="-0.2262" y="1" relative="1" as="geometry">
-            <mxPoint x="23" y="-20" as="offset" />
+            <mxPoint x="11" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-62" value="NettyRemotingServer" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
@@ -534,7 +537,7 @@
           <mxGeometry y="20" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gRX_p2emA7Th4d0u0ITd-14" value="defaultRequestProcessor：默认的请求处理器以及处理线程&lt;br&gt;Pair&amp;lt;NettyRequestProcessor,线程池&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
-          <mxGeometry x="840" y="980" width="330" height="55" as="geometry" />
+          <mxGeometry x="900" y="980" width="330" height="55" as="geometry" />
         </mxCell>
         <mxCell id="R35EvjBFJ_EF52CEYh5g-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="gRX_p2emA7Th4d0u0ITd-11" target="Ah4ReLh6Q1P7ksSwNjXb-95">
           <mxGeometry relative="1" as="geometry">
@@ -618,6 +621,21 @@
         </mxCell>
         <mxCell id="R35EvjBFJ_EF52CEYh5g-27" value="ResponseFture不会阻塞调用线程，是否超时是通过异步线程去轮询responseTable来检查完成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="540" y="930" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-28" value="semaphoreOneWay" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1030" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.999;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=1 1;labelBackgroundColor=none;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ah4ReLh6Q1P7ksSwNjXb-106" target="R35EvjBFJ_EF52CEYh5g-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="1054" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R35EvjBFJ_EF52CEYh5g-31" value="oneway发送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="R35EvjBFJ_EF52CEYh5g-30">
+          <mxGeometry x="0.5739" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
