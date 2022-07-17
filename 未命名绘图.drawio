@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T17:16:34.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZFJ1NK1zU-D6oCQ6vNZ2" version="20.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-17T17:41:49.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ifig6m6RFYB1X0usPdeY" version="20.0.4" type="github" pages="4">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
     <mxGraphModel dx="1471" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="990" y="90" width="420" height="500" as="geometry" />
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-86" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;dashed=1;gradientColor=#b3b3b3;" vertex="1" parent="1">
-          <mxGeometry x="710" y="580" width="170" height="130" as="geometry" />
+          <mxGeometry x="700" y="465" width="170" height="130" as="geometry" />
         </mxCell>
         <mxCell id="9qpIoXIW9haDFXvM1KQP-30" value="组件管理类" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;strokeColor=#000000;fillColor=#dae8fc;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1770" y="750" width="220" height="360" as="geometry" />
@@ -372,12 +372,17 @@
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Ah4ReLh6Q1P7ksSwNjXb-62" target="Ah4ReLh6Q1P7ksSwNjXb-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gRX_p2emA7Th4d0u0ITd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ah4ReLh6Q1P7ksSwNjXb-62" target="gRX_p2emA7Th4d0u0ITd-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gRX_p2emA7Th4d0u0ITd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="Ah4ReLh6Q1P7ksSwNjXb-62" target="gRX_p2emA7Th4d0u0ITd-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="1060" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="869" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="gRX_p2emA7Th4d0u0ITd-20" value="注册DefaultReqeustProcessor&lt;br&gt;和RemotingExecutor" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="gRX_p2emA7Th4d0u0ITd-18">
           <mxGeometry x="-0.2262" y="1" relative="1" as="geometry">
-            <mxPoint x="-24" y="-20" as="offset" />
+            <mxPoint x="23" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-62" value="NettyRemotingServer" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B20000;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
@@ -395,6 +400,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1190" y="628" />
+              <mxPoint x="940" y="628" />
+              <mxPoint x="940" y="513" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -413,13 +420,13 @@
           <mxGeometry x="1350" y="840" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-82" value="semaphoreOneway" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#f9f7ed;" vertex="1" parent="1">
-          <mxGeometry x="740" y="610" width="120" height="30" as="geometry" />
+          <mxGeometry x="730" y="495" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-83" value="semaphoreAsync" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#f9f7ed;" vertex="1" parent="1">
-          <mxGeometry x="740" y="660" width="120" height="30" as="geometry" />
+          <mxGeometry x="730" y="545" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-87" value="控制并发网络发送的最大量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="720" y="580" width="150" height="30" as="geometry" />
+          <mxGeometry x="710" y="465" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-88" value="responseTable：缓存一次正在未处理完请求的结果&lt;br&gt;Map&amp;lt;请求Id,ResponseFuture&amp;gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
           <mxGeometry x="1030" y="120" width="320" height="60" as="geometry" />
@@ -456,7 +463,7 @@
           <mxGeometry x="1030" y="450" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-110" value="RemotingCommand" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="920" y="990" width="150" height="60" as="geometry" />
+          <mxGeometry x="700" y="680" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-106" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;fillColor=default;" vertex="1" parent="Ah4ReLh6Q1P7ksSwNjXb-110">
           <mxGeometry y="15" width="150" height="45" as="geometry" />
@@ -511,7 +518,7 @@
           <mxGeometry y="20" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gRX_p2emA7Th4d0u0ITd-14" value="defaultRequestProcessor：默认的请求处理器以及处理线程&lt;br&gt;Pair&amp;lt;NettyRequestProcessor,线程池&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="1">
-          <mxGeometry x="590" y="841.25" width="330" height="55" as="geometry" />
+          <mxGeometry x="840" y="980" width="330" height="55" as="geometry" />
         </mxCell>
         <mxCell id="R35EvjBFJ_EF52CEYh5g-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;labelBackgroundColor=none;fontColor=#000000;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="gRX_p2emA7Th4d0u0ITd-11" target="Ah4ReLh6Q1P7ksSwNjXb-95">
           <mxGeometry relative="1" as="geometry">
