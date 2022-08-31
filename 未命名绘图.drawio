@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T18:51:24.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wnEpxXj44mAwL27WkAB3" version="20.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-31T18:51:58.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="M0I_yslTGxgmAPOq25ik" version="20.1.1" type="github" pages="4">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -86,8 +86,8 @@
         <mxCell id="s-idyPbzvVlncBuHliUa-20" value="topicQueueTable&lt;br&gt;结构：Map&amp;lt;Topic,List&amp;lt;&amp;nbsp;QueueData&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2060" y="850" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s-idyPbzvVlncBuHliUa-21" value="Topic是一个逻辑上的概念。每个Topic会有多个queue组成，queue分散在不同的broker上。&lt;br&gt;它是一个数据分区。" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-          <mxGeometry x="2280" y="740" width="490" height="50" as="geometry" />
+        <mxCell id="s-idyPbzvVlncBuHliUa-21" value="Topic是一个逻辑上的概念。&lt;br&gt;每个Topic会有多个queue组成，queue分散在不同的broker上。&lt;br&gt;每个queue都是一个数据分区。" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="740" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s-idyPbzvVlncBuHliUa-28" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2410" y="820" width="130" height="80" as="geometry" />
