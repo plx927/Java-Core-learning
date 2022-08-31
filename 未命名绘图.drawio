@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T17:39:28.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3jmNx42lwEDx68XV3DSy" version="20.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-31T18:51:24.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wnEpxXj44mAwL27WkAB3" version="20.1.1" type="github" pages="4">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s-idyPbzvVlncBuHliUa-13" value="配置类" style="shape=umlFrame;whiteSpace=wrap;html=1;width=60;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1820" y="510" width="230" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="R35EvjBFJ_EF52CEYh5g-29" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcccc;" parent="1" vertex="1">
           <mxGeometry x="540" y="1010" width="170" height="70" as="geometry" />
         </mxCell>
@@ -12,9 +15,6 @@
         </mxCell>
         <mxCell id="R35EvjBFJ_EF52CEYh5g-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeColor=#36393d;fillColor=#ffcccc;" parent="1" vertex="1">
           <mxGeometry x="500" y="640" width="260" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="s-idyPbzvVlncBuHliUa-13" value="配置类" style="shape=umlFrame;whiteSpace=wrap;html=1;width=60;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1820" y="510" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Ah4ReLh6Q1P7ksSwNjXb-104" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="990" y="90" width="420" height="500" as="geometry" />
@@ -86,8 +86,8 @@
         <mxCell id="s-idyPbzvVlncBuHliUa-20" value="topicQueueTable&lt;br&gt;结构：Map&amp;lt;Topic,List&amp;lt;&amp;nbsp;QueueData&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2060" y="850" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s-idyPbzvVlncBuHliUa-21" value="topic是一个逻辑上的概念。每个Topic会有多个queue组成，queue分散在不同的broker上。&lt;br&gt;它是一个数据分区。" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-          <mxGeometry x="2280" y="740" width="260" height="50" as="geometry" />
+        <mxCell id="s-idyPbzvVlncBuHliUa-21" value="Topic是一个逻辑上的概念。每个Topic会有多个queue组成，queue分散在不同的broker上。&lt;br&gt;它是一个数据分区。" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+          <mxGeometry x="2280" y="740" width="490" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s-idyPbzvVlncBuHliUa-28" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2410" y="820" width="130" height="80" as="geometry" />
@@ -642,7 +642,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="k0KbqB3zZJxyXm0jrGa-" name="注册Broker过程">
-    <mxGraphModel dx="1017" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
