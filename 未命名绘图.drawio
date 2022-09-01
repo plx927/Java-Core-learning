@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-31T18:51:58.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="M0I_yslTGxgmAPOq25ik" version="20.1.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-01T18:44:51.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="lX1Q_uXshVTgaeG_yu37" version="20.1.1" type="github" pages="4">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="RouteInfoManager结构">
-    <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,7 +107,7 @@
         <mxCell id="9qpIoXIW9haDFXvM1KQP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="s-idyPbzvVlncBuHliUa-33" target="s-idyPbzvVlncBuHliUa-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s-idyPbzvVlncBuHliUa-33" value="brokerAddrTable&lt;br&gt;结构：Map&amp;lt;brokerName,List&amp;lt;BrokerData&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="s-idyPbzvVlncBuHliUa-33" value="brokerAddrTable&lt;br&gt;结构：Map&amp;lt;brokerName,BrokerData&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2055" y="940" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s-idyPbzvVlncBuHliUa-34" value="" style="group" parent="1" vertex="1" connectable="0">
