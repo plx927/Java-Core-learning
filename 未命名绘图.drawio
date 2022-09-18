@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T04:23:51.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IhHS5LWw4JDEhQif80rE" version="20.2.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-09-18T06:49:41.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BUhumAwkvCEKUnntVEEq" version="20.2.8" type="github" pages="4">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1278" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
         <mxCell id="s-idyPbzvVlncBuHliUa-20" value="topicQueueTable&lt;br&gt;结构：Map&amp;lt;Topic,List&amp;lt;&amp;nbsp;QueueData&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2060" y="850" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s-idyPbzvVlncBuHliUa-21" value="Topic是一个逻辑上的概念。&lt;br&gt;每个Topic会有多个queue组成，queue分散在不同的broker上。&lt;br&gt;每个queue都是一个数据分区。" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+        <mxCell id="s-idyPbzvVlncBuHliUa-21" value="Topic是一个逻辑上的概念。&lt;br&gt;每个Topic会有多个queue组成，queue分散在不同的broker上。&lt;br&gt;每个queue都是一个数据分区，实现了分布式的数据存储" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
           <mxGeometry x="2280" y="740" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="s-idyPbzvVlncBuHliUa-28" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -99,7 +99,7 @@
           <mxGeometry y="20" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s-idyPbzvVlncBuHliUa-30" value="每一个Topic，会以队列的形式分布在不同的Broker中。&lt;br&gt;同时在Broker中，Topic会区分写队列和读队列。&lt;br&gt;区分读写队列的目的是为了Topic的扩容和缩容。" style="text;html=1;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
-          <mxGeometry x="2610" y="840" width="310" height="60" as="geometry" />
+          <mxGeometry x="2610" y="840" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s-idyPbzvVlncBuHliUa-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="s-idyPbzvVlncBuHliUa-27" target="s-idyPbzvVlncBuHliUa-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
