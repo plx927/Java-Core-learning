@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T17:32:35.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cn2xQd1ZNyL7TKAab_vd" version="20.2.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-19T18:00:07.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="lBS818rm2jGGrxdH5pGk" version="20.2.8" type="github" pages="5">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1278" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1021,6 +1021,15 @@
         </mxCell>
         <mxCell id="WNDoje5bA23_5QXyql-z-1" value="配置类" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="1">
           <mxGeometry x="680" y="40" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WNDoje5bA23_5QXyql-z-2" value="RemotingServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-1" value="FastRemotingServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-4" value="BrokerOuterAPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="250" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
