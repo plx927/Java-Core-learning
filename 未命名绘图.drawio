@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T17:04:38.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1WU4E4_ZuqgVr91i-2U0" version="20.2.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-19T17:31:50.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KxlcPyMEF_0iJcK9yR6K" version="20.2.8" type="github" pages="5">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1278" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1002,11 +1002,23 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="VfOsHVJnLkTFkvlYid9e" name="第 5 页">
+  <diagram id="VfOsHVJnLkTFkvlYid9e" name="Broker架构">
     <mxGraphModel dx="1278" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vL9GRcuBrd7ApzOG439i-1" value="brokerConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="90" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vL9GRcuBrd7ApzOG439i-2" value="nettyServerConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vL9GRcuBrd7ApzOG439i-3" value="nettyClientConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="150" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vL9GRcuBrd7ApzOG439i-4" value="messageStoreConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="180" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
