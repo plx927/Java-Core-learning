@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T18:36:22.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="OeR5BJu1aYpmHoOmrkvC" version="20.2.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-19T18:36:36.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="trSHvwMnHO9slH55xRcJ" version="20.2.8" type="github" pages="5">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1278" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1048,6 +1048,11 @@
             <Array as="points">
               <mxPoint x="416" y="185" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-13" value="存储位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R5ptD45YeeT2vkTX0Ju6-12">
+          <mxGeometry x="-0.6106" y="5" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
