@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T18:42:02.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1AgA8NwhgkSAC0--afUZ" version="20.2.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-20T16:26:57.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="if0kZKYawIE2LCwr1iy7" version="20.3.3" type="github" pages="5">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1278" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1007,62 +1007,71 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vL9GRcuBrd7ApzOG439i-1" value="brokerConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vL9GRcuBrd7ApzOG439i-1" value="brokerConfig" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="130" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vL9GRcuBrd7ApzOG439i-2" value="nettyServerConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vL9GRcuBrd7ApzOG439i-2" value="nettyServerConfig" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="180" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vL9GRcuBrd7ApzOG439i-3" value="nettyClientConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vL9GRcuBrd7ApzOG439i-3" value="nettyClientConfig" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="230" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vL9GRcuBrd7ApzOG439i-4" value="messageStoreConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vL9GRcuBrd7ApzOG439i-4" value="messageStoreConfig" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="280" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WNDoje5bA23_5QXyql-z-1" value="配置类" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" vertex="1" parent="1">
+        <mxCell id="WNDoje5bA23_5QXyql-z-1" value="配置类" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;" parent="1" vertex="1">
           <mxGeometry x="300" y="80" width="170" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="WNDoje5bA23_5QXyql-z-2" value="RemotingServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WNDoje5bA23_5QXyql-z-2" value="RemotingServer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="540" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-1" value="FastRemotingServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-1" value="FastRemotingServer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="610" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-4" value="BrokerOuterAPI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-4" value="BrokerOuterAPI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="470" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-9" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-9" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="580" y="170" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-7" value="ConsumerOffsetManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="R5ptD45YeeT2vkTX0Ju6-9">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-7" value="ConsumerOffsetManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="R5ptD45YeeT2vkTX0Ju6-9" vertex="1">
           <mxGeometry y="30" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-8" value="消费偏移量管理组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="R5ptD45YeeT2vkTX0Ju6-9">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-8" value="消费偏移量管理组件" style="rounded=0;whiteSpace=wrap;html=1;" parent="R5ptD45YeeT2vkTX0Ju6-9" vertex="1">
           <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-11" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;${user.home}/store/config/consumerOffset.json&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-11" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;${user.home}/store/config/consumerOffset.json&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="150" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R5ptD45YeeT2vkTX0Ju6-7" target="R5ptD45YeeT2vkTX0Ju6-11">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="R5ptD45YeeT2vkTX0Ju6-7" target="R5ptD45YeeT2vkTX0Ju6-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="876" y="215" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-13" value="存储位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R5ptD45YeeT2vkTX0Ju6-12">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-13" value="存储位置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="R5ptD45YeeT2vkTX0Ju6-12" vertex="1" connectable="0">
           <mxGeometry x="-0.6106" y="5" relative="1" as="geometry">
             <mxPoint x="24" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-17" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-17" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="580" y="290" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-18" value="TopicConfigManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="R5ptD45YeeT2vkTX0Ju6-17">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-18" value="TopicConfigManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="R5ptD45YeeT2vkTX0Ju6-17" vertex="1">
           <mxGeometry y="25" width="150" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="R5ptD45YeeT2vkTX0Ju6-19" value="Topic管理组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="R5ptD45YeeT2vkTX0Ju6-17">
+        <mxCell id="R5ptD45YeeT2vkTX0Ju6-19" value="Topic管理组件" style="rounded=0;whiteSpace=wrap;html=1;" parent="R5ptD45YeeT2vkTX0Ju6-17" vertex="1">
           <mxGeometry width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wEBm0Ra-d43112kYjXZA-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="570" y="450" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wEBm0Ra-d43112kYjXZA-2" value="ConsumerOffsetManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wEBm0Ra-d43112kYjXZA-1">
+          <mxGeometry y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wEBm0Ra-d43112kYjXZA-3" value="消费偏移量管理组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wEBm0Ra-d43112kYjXZA-1">
+          <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
