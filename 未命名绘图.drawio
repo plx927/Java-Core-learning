@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T18:58:02.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="H-Fj_peTDeb6q2QBk7PV" version="20.3.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T18:58:31.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3tdTDcbpSaLH1LOejF25" version="20.3.3" type="github" pages="5">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1065,7 +1065,7 @@
           <mxGeometry width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="wEBm0Ra-d43112kYjXZA-1" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="590" y="430" width="150" height="60" as="geometry" />
+          <mxGeometry x="590" y="350" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wEBm0Ra-d43112kYjXZA-2" value="ConsumerManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="wEBm0Ra-d43112kYjXZA-1" vertex="1">
           <mxGeometry y="30" width="150" height="30" as="geometry" />
@@ -1074,7 +1074,7 @@
           <mxGeometry width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L_Cryf1CI44xL-GLNgJg-5" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="890" y="455" width="130" height="60" as="geometry" />
+          <mxGeometry x="890" y="375" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L_Cryf1CI44xL-GLNgJg-1" value="消费者" style="rounded=0;whiteSpace=wrap;html=1;" parent="L_Cryf1CI44xL-GLNgJg-5" vertex="1">
           <mxGeometry width="100" height="20" as="geometry" />
@@ -1089,7 +1089,7 @@
           <mxGeometry x="100" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L_Cryf1CI44xL-GLNgJg-6" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="890" y="370" width="130" height="60" as="geometry" />
+          <mxGeometry x="890" y="290" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L_Cryf1CI44xL-GLNgJg-7" value="消费者" style="rounded=0;whiteSpace=wrap;html=1;" parent="L_Cryf1CI44xL-GLNgJg-6" vertex="1">
           <mxGeometry width="100" height="20" as="geometry" />
@@ -1106,21 +1106,21 @@
         <mxCell id="L_Cryf1CI44xL-GLNgJg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="wEBm0Ra-d43112kYjXZA-3" target="L_Cryf1CI44xL-GLNgJg-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="760" y="440" />
-              <mxPoint x="760" y="395" />
+              <mxPoint x="760" y="360" />
+              <mxPoint x="760" y="315" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="L_Cryf1CI44xL-GLNgJg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="wEBm0Ra-d43112kYjXZA-2" target="L_Cryf1CI44xL-GLNgJg-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="760" y="480" />
-              <mxPoint x="760" y="500" />
+              <mxPoint x="760" y="400" />
+              <mxPoint x="760" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JgZvfLMV0s5ruxjPzZM9-1" value="consumerTable&lt;br&gt;结构：Map&amp;lt;Group，ConsumerGroupInfo&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="532.5" y="540" width="265" height="50" as="geometry" />
+          <mxGeometry x="532.5" y="460" width="265" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iiWvNhCHMFBnMpTE1Slv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wEBm0Ra-d43112kYjXZA-2" target="JgZvfLMV0s5ruxjPzZM9-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1133,16 +1133,16 @@
         <mxCell id="OVlOejYpfBuQRzPpr9Pn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" parent="1" source="L_Cryf1CI44xL-GLNgJg-3" target="JgZvfLMV0s5ruxjPzZM9-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="940" y="578" />
+              <mxPoint x="940" y="498" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OVlOejYpfBuQRzPpr9Pn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.89;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="L_Cryf1CI44xL-GLNgJg-10" target="JgZvfLMV0s5ruxjPzZM9-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1070" y="400" />
-              <mxPoint x="1070" y="610" />
-              <mxPoint x="768" y="610" />
+              <mxPoint x="1070" y="320" />
+              <mxPoint x="1070" y="530" />
+              <mxPoint x="768" y="530" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1183,7 +1183,7 @@
         </mxCell>
         <mxCell id="nwb6uSrkdYmt9SBH9IpM-13" value="提交Topic的队列消费偏移量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nwb6uSrkdYmt9SBH9IpM-11">
           <mxGeometry x="-0.0493" y="4" relative="1" as="geometry">
-            <mxPoint x="9" y="32" as="offset" />
+            <mxPoint x="9" y="39" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nwb6uSrkdYmt9SBH9IpM-14" value="offsetTable&lt;br&gt;结构：Map&amp;lt;topic@Group，&amp;lt;队列Id,消费偏移量&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1193,7 +1193,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nwb6uSrkdYmt9SBH9IpM-16" value="内部维护" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="702.5" y="495" as="geometry">
+          <mxGeometry x="702.5" y="415" as="geometry">
             <mxPoint x="403" y="-369" as="offset" />
           </mxGeometry>
         </mxCell>
