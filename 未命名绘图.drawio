@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T18:43:08.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-9Fya7XlLRAZYlEq7Ugu" version="20.3.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T18:45:59.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RKm2t3MnwWSsRtJQvOo1" version="20.3.3" type="github" pages="5">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1196,6 +1196,12 @@
           <mxGeometry x="702.5" y="495" as="geometry">
             <mxPoint x="403" y="-369" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nwb6uSrkdYmt9SBH9IpM-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="nwb6uSrkdYmt9SBH9IpM-17" target="R5ptD45YeeT2vkTX0Ju6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nwb6uSrkdYmt9SBH9IpM-17" value="对消费者组对Topic中队列消费情况的管理与记录" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="80" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
