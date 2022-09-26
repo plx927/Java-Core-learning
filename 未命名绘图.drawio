@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T18:57:55.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ELzqLX-eyPEh1Uw42FAY" version="20.3.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T18:58:02.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="H-Fj_peTDeb6q2QBk7PV" version="20.3.3" type="github" pages="5">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1056,7 +1056,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="R5ptD45YeeT2vkTX0Ju6-17" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="540" y="670" width="150" height="50" as="geometry" />
+          <mxGeometry x="590" y="650" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="R5ptD45YeeT2vkTX0Ju6-18" value="TopicConfigManager" style="rounded=0;whiteSpace=wrap;html=1;" parent="R5ptD45YeeT2vkTX0Ju6-17" vertex="1">
           <mxGeometry y="25" width="150" height="25" as="geometry" />
