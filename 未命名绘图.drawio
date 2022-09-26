@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T18:04:17.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="R94zPTnPIgWBY1vx9fiX" version="20.3.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-26T18:05:23.343Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IZv87cOdDpROE04XOr4p" version="20.3.3" type="github" pages="5">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1278" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1003,7 +1003,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VfOsHVJnLkTFkvlYid9e" name="Broker架构">
-    <mxGraphModel dx="1278" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1128,6 +1128,22 @@
         <mxCell id="OVlOejYpfBuQRzPpr9Pn-3" value="内部维护" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iiWvNhCHMFBnMpTE1Slv-1">
           <mxGeometry x="-0.3385" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVlOejYpfBuQRzPpr9Pn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="L_Cryf1CI44xL-GLNgJg-3" target="JgZvfLMV0s5ruxjPzZM9-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="578" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVlOejYpfBuQRzPpr9Pn-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.89;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="L_Cryf1CI44xL-GLNgJg-10" target="JgZvfLMV0s5ruxjPzZM9-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="400" />
+              <mxPoint x="1070" y="610" />
+              <mxPoint x="768" y="610" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
