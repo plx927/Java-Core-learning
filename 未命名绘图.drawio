@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T14:22:15.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4vDUVYcJSoINSwUulklp" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-06T14:37:42.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CQEUj6SIextFIpcIr7Ru" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1277,10 +1277,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-1" value="DefaultMessageStore&lt;br&gt;消息存储组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="190" width="150" height="40" as="geometry" />
+          <mxGeometry x="430" y="250" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-2" value="MessageStore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="100" width="150" height="30" as="geometry" />
+          <mxGeometry x="430" y="160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-4" value="CommitLog&lt;br&gt;核心磁盘数据结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="410" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-7" value="ConsumeQueueTable&lt;br&gt;Map&amp;lt;Topic,Map&amp;lt;队列ID,ConsumeQueue&amp;gt;&lt;br&gt;消费队列内存数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="290" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-8" value="FlushConsumeService&lt;br&gt;消费队列服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-9" value="CleanCommitLogService&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="330" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-10" value="CleanConsumeQueueService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="470" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-11" value="IndexService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-12" value="AllocatedMappedFileService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="650" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
