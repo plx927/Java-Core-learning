@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T14:15:11.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xjZEV70mdIkcXTa6Vv4v" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-06T14:22:15.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4vDUVYcJSoINSwUulklp" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1276,7 +1276,7 @@
         <mxCell id="M5rHcphhf6pZtaojcMGI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-1" target="M5rHcphhf6pZtaojcMGI-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-1" value="DefaultMessageStore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="M5rHcphhf6pZtaojcMGI-1" value="DefaultMessageStore&lt;br&gt;消息存储组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="190" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-2" value="MessageStore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
