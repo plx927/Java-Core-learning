@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T00:27:16.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="LlyTvOUyMWptxFAUWrMP" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-07T00:27:54.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="HYKkW8trS0Ot3uXH6SYX" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1390,6 +1390,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-43" target="M5rHcphhf6pZtaojcMGI-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-43" value="FileChannel&lt;br&gt;NIO文件通道" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="995" y="840" width="85" height="40" as="geometry" />
         </mxCell>
@@ -1400,6 +1403,14 @@
               <mxPoint x="940" y="860" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-45" value="初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M5rHcphhf6pZtaojcMGI-44">
+          <mxGeometry x="-0.2853" y="3" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-46" value="ByteBuffer&lt;br&gt;内存映射文件" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="995" y="960" width="85" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
