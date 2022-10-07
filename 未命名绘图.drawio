@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-06T15:22:24.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="kQsQ9aJGvjstnHh2oc2K" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-07T00:26:33.223Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="u0QLMv4hj6HFYP-6SJet" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1307,28 +1307,88 @@
           <mxGeometry x="260" y="840" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-15" value="CommitLogDispatcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="720" width="170" height="50" as="geometry" />
+          <mxGeometry x="225" y="760" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-17" value="" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="590" y="600" width="180" height="70" as="geometry" />
+          <mxGeometry x="750" y="610" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-12" value="AllocatedMappedFileService" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-17">
           <mxGeometry y="30" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-16" value="mappedFile分配组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-17">
+        <mxCell id="M5rHcphhf6pZtaojcMGI-16" value="mappedFile分配组件&lt;br&gt;它自身是一个线程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-17">
           <mxGeometry width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-20" value="requestTable&lt;br&gt;Map&amp;lt;文件路径，分配请求&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="570" width="190" height="30" as="geometry" />
+        <mxCell id="M5rHcphhf6pZtaojcMGI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-16" target="M5rHcphhf6pZtaojcMGI-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="595" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-21" value="requestQuque" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="910" y="650" width="190" height="30" as="geometry" />
+        <mxCell id="M5rHcphhf6pZtaojcMGI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-12" target="M5rHcphhf6pZtaojcMGI-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="700" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-16" target="M5rHcphhf6pZtaojcMGI-20">
+        <mxCell id="M5rHcphhf6pZtaojcMGI-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="810" y="830" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-24" value="MappedFile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-26">
+          <mxGeometry y="20" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-25" value="内存映射文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-26">
+          <mxGeometry width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1070" y="590" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-20" value="requestTable&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-29">
+          <mxGeometry y="20" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-28" value="请求注册表&lt;br&gt;Map&amp;lt;文件路径，分配请求&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-29">
+          <mxGeometry y="-10" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1060" y="650" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-21" value="requestQuque" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-31">
+          <mxGeometry y="30" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-30" value="分配请求队列，&lt;br&gt;它是一个阻塞的优先队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-31">
+          <mxGeometry width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-32" target="M5rHcphhf6pZtaojcMGI-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="760" />
+              <mxPoint x="770" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-42" value="创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M5rHcphhf6pZtaojcMGI-41">
+          <mxGeometry x="-0.2295" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-32" value="异步线程" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="807.5" y="735" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-12" target="M5rHcphhf6pZtaojcMGI-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-12" target="M5rHcphhf6pZtaojcMGI-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="M5rHcphhf6pZtaojcMGI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-21" target="M5rHcphhf6pZtaojcMGI-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1155" y="776" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-36" value="从队列中拉取分配请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M5rHcphhf6pZtaojcMGI-35">
+          <mxGeometry x="0.2687" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
