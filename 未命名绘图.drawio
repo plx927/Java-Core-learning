@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T01:01:32.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="NTBUGhrQnRBgG6Dzw6H7" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-07T01:28:11.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="EE83lV9Kd9vQ3skO-Sna" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1288,9 +1288,6 @@
         <mxCell id="M5rHcphhf6pZtaojcMGI-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-4" target="M5rHcphhf6pZtaojcMGI-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-4" value="CommitLog&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="480" y="985" width="150" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-7" value="ConsumeQueueTable&lt;br&gt;Map&amp;lt;Topic,Map&amp;lt;队列ID,ConsumeQueue&amp;gt;&lt;br&gt;消费队列内存数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="290" width="250" height="50" as="geometry" />
         </mxCell>
@@ -1444,6 +1441,27 @@
               <mxPoint x="786" y="930" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-65" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="960" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-4" value="CommitLog&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-65">
+          <mxGeometry y="25" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-64" value="磁盘数据存储组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-65">
+          <mxGeometry width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-66" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="1070" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-67" value="DLedgerCommitLog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-66">
+          <mxGeometry y="25" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-68" value="数据复制高可用存储组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-66">
+          <mxGeometry width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="M5rHcphhf6pZtaojcMGI-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-68" target="M5rHcphhf6pZtaojcMGI-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
