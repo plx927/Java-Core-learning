@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T17:37:35.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Rimt6E4LvLytCDLtpaFe" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-08T17:39:18.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9bYG7qTHdGIQJhis1zUq" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
-    <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1560,7 +1560,7 @@
           <mxGeometry x="1200" y="875" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-44" value="为了对MappedFile的创建进行并发控制，所以使用了一个分配线程" style="text;html=1;strokeColor=#A50040;fillColor=#d80073;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=11;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="705" width="210" height="30" as="geometry" />
+          <mxGeometry x="1080" y="705" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-64" target="M5rHcphhf6pZtaojcMGI-74">
           <mxGeometry relative="1" as="geometry">
@@ -1640,7 +1640,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-86" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="700" y="1620" width="110" height="60" as="geometry" />
+          <mxGeometry x="640" y="1620" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-84" value="消息总长度" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="UONhqjysYR8CiSjD63Gk-86">
           <mxGeometry y="30" width="110" height="30" as="geometry" />
@@ -1649,7 +1649,7 @@
           <mxGeometry width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-87" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="810" y="1620" width="110" height="60" as="geometry" />
+          <mxGeometry x="750" y="1620" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-88" value="魔数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="UONhqjysYR8CiSjD63Gk-87">
           <mxGeometry y="30" width="110" height="30" as="geometry" />
@@ -1658,12 +1658,21 @@
           <mxGeometry width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-90" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="920" y="1620" width="110" height="60" as="geometry" />
+          <mxGeometry x="860" y="1620" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UONhqjysYR8CiSjD63Gk-91" value="魔数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="UONhqjysYR8CiSjD63Gk-90">
+        <mxCell id="UONhqjysYR8CiSjD63Gk-91" value="消息体CRC编码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="UONhqjysYR8CiSjD63Gk-90">
           <mxGeometry y="30" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-92" value="4字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="UONhqjysYR8CiSjD63Gk-90">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UONhqjysYR8CiSjD63Gk-94" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="970" y="1620" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UONhqjysYR8CiSjD63Gk-95" value="队列ID" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="UONhqjysYR8CiSjD63Gk-94">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UONhqjysYR8CiSjD63Gk-96" value="4字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="UONhqjysYR8CiSjD63Gk-94">
           <mxGeometry width="110" height="30" as="geometry" />
         </mxCell>
       </root>
