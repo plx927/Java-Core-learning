@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T17:41:05.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nHzco1U9UeUSRYzQjZgb" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-08T17:45:50.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="F_F21tvuSUWN6iIv8zQm" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1483" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1700,6 +1700,60 @@
           <mxGeometry y="30" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9Fpa7yqBvgkDrjQwkVgM-10" value="8字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-8">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1410" y="1620" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-13" value="消息SysFlag" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-12">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-14" value="4字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-12">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-15" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1520" y="1620" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-16" value="消息的发送时间" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-15">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-17" value="8字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-15">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="640" y="1680" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-19" value="消息的存储时间" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-18">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-20" value="8字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-18">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-22" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="750" y="1680" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-23" value="消息的IP信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-22">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-24" value="4字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-22">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="860" y="1680" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-26" value="消息机器的端口信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-25">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-27" value="4字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-25">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="970" y="1680" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-29" value="重复消费的次数" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-28">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-30" value="4字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-28">
           <mxGeometry width="110" height="30" as="geometry" />
         </mxCell>
       </root>
