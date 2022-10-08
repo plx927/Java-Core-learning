@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T15:37:06.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0xpVEWlGugksSOiaWhF5" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-08T15:48:25.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Aq8lnHJ-CN4WM6hGrrdI" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1280,10 +1280,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-1" value="DefaultMessageStore&lt;br&gt;消息存储组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="720" width="150" height="40" as="geometry" />
+          <mxGeometry x="550" y="720" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-2" value="MessageStore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="630" width="150" height="30" as="geometry" />
+          <mxGeometry x="550" y="630" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-7" value="ConsumeQueueTable&lt;br&gt;Map&amp;lt;Topic,Map&amp;lt;队列ID,ConsumeQueue&amp;gt;&lt;br&gt;消费队列内存数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="290" width="250" height="50" as="geometry" />
@@ -1298,16 +1298,16 @@
           <mxGeometry x="650" y="470" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-11" value="IndexService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="550" width="120" height="40" as="geometry" />
+          <mxGeometry x="155" y="450" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-13" value="HAService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="490" width="120" height="40" as="geometry" />
+          <mxGeometry x="205" y="390" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-14" value="StoreCheckPoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="1230" width="120" height="40" as="geometry" />
+          <mxGeometry x="465" y="1185" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-15" value="CommitLogDispatcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="615" width="170" height="50" as="geometry" />
+          <mxGeometry x="90" y="515" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-17" value="" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1330" y="635" width="180" height="70" as="geometry" />
@@ -1373,7 +1373,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-32" value="异步线程" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="M5rHcphhf6pZtaojcMGI-32" value="异步线程" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="1387.5" y="760" width="65" height="65" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-12" target="M5rHcphhf6pZtaojcMGI-32">
@@ -1426,17 +1426,17 @@
         <mxCell id="M5rHcphhf6pZtaojcMGI-46" value="ByteBuffer&lt;br&gt;内存映射文件" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1620" y="985" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-65" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="480" y="960" width="150" height="65" as="geometry" />
+        <mxCell id="M5rHcphhf6pZtaojcMGI-65" value="" style="group;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="775" y="915" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-4" value="CommitLog&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-65">
-          <mxGeometry y="25" width="150" height="40" as="geometry" />
+        <mxCell id="M5rHcphhf6pZtaojcMGI-4" value="CommitLog&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-65">
+          <mxGeometry y="32.69" width="190" height="67.31" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-64" value="磁盘数据存储组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-65">
-          <mxGeometry width="150" height="25" as="geometry" />
+          <mxGeometry width="190" height="32.69" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-66" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="300" y="870" width="150" height="65" as="geometry" />
+          <mxGeometry x="595" y="825" width="150" height="65" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-67" value="DLedgerCommitLog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-66">
           <mxGeometry y="25" width="150" height="40" as="geometry" />
@@ -1446,14 +1446,14 @@
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-68">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="555" y="960" as="targetPoint" />
+            <mxPoint x="850" y="915" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="555" y="893" />
+              <mxPoint x="850" y="848" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-72" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="270" y="970" width="130" height="70" as="geometry" />
+          <mxGeometry x="565" y="925" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-70" value="MessageStoreConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-72">
           <mxGeometry y="30" width="130" height="40" as="geometry" />
@@ -1463,15 +1463,15 @@
         </mxCell>
         <mxCell id="JIypLXYbpiEjelQo1Uz8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-4" target="M5rHcphhf6pZtaojcMGI-71">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="1005" as="targetPoint" />
+            <mxPoint x="615" y="960" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="1000" />
-              <mxPoint x="430" y="1000" />
+              <mxPoint x="725" y="955" />
+              <mxPoint x="725" y="955" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SdFkZbLHOj_fo171HmIQ-1" value="存储路径：${user.home}/store/commitLog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="115" y="1060" width="240" height="30" as="geometry" />
+          <mxGeometry x="410" y="1015" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BduLzOYX5bW_NTIR9JDn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="BduLzOYX5bW_NTIR9JDn-19" target="M5rHcphhf6pZtaojcMGI-46">
           <mxGeometry relative="1" as="geometry">
@@ -1489,7 +1489,7 @@
           <mxGeometry x="1760" y="933" width="100" height="25" as="geometry" />
         </mxCell>
         <mxCell id="BduLzOYX5bW_NTIR9JDn-26" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="320" y="1130" width="160" height="70" as="geometry" />
+          <mxGeometry x="615" y="1085" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BduLzOYX5bW_NTIR9JDn-24" value="FlushCommitLogService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BduLzOYX5bW_NTIR9JDn-26">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
@@ -1499,17 +1499,17 @@
         </mxCell>
         <mxCell id="BduLzOYX5bW_NTIR9JDn-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="408" y="1130" as="targetPoint" />
+            <mxPoint x="703" y="1085" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="510" y="1110" />
-              <mxPoint x="408" y="1110" />
+              <mxPoint x="805" y="1065" />
+              <mxPoint x="703" y="1065" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BduLzOYX5bW_NTIR9JDn-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="BduLzOYX5bW_NTIR9JDn-24" target="M5rHcphhf6pZtaojcMGI-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="1250" />
+              <mxPoint x="705" y="1205" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1521,12 +1521,24 @@
         <mxCell id="BduLzOYX5bW_NTIR9JDn-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-4" target="SdFkZbLHOj_fo171HmIQ-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="490" y="1075" />
+              <mxPoint x="785" y="1030" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="UONhqjysYR8CiSjD63Gk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-74" target="M5rHcphhf6pZtaojcMGI-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1195" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UONhqjysYR8CiSjD63Gk-43" value="通过分配线程获取MappedFile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" connectable="0" parent="UONhqjysYR8CiSjD63Gk-42">
+          <mxGeometry x="0.277" y="-5" relative="1" as="geometry">
+            <mxPoint x="-23" y="70" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-74" value="MappedFileQueue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="905" width="130" height="40" as="geometry" />
+          <mxGeometry x="1130" y="810" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-30" value="&lt;span style=&quot;&quot;&gt;1.TOTAL_MAPPED_VITUAL_MEMORY：总的虚拟内存使用量&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;2. TOTAL_MAPPED_FILES：创建内存映射文件的数量&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;3.wrotePosition：当前内存映射文件（commitLog）写入的偏移量&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;4.flushedPosition：当前内存映射文件（commitLog）刷盘的偏移量&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;5. fileSize：commitLog文件的大小，默认1G.&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;6. fileOffset：commitLog在物理磁盘上的偏移量，通过文件名解析出来&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;7. fileName： commitLog文件的全路径&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;8. MappedByteBuffer：虚拟内存&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;align=left;verticalAlign=top;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
           <mxGeometry x="1810" y="755" width="420" height="130" as="geometry" />
@@ -1542,22 +1554,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1020" width="310" height="90" as="geometry" />
+          <mxGeometry x="1040" y="925" width="310" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-33" value="MappedFile" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=11;fontColor=#ffffff;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="1036.5" width="80" height="37" as="geometry" />
+          <mxGeometry x="1050" y="941.5" width="80" height="37" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-34" value="MappedFile" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=11;fontColor=#ffffff;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="1109" y="1036.5" width="80" height="37" as="geometry" />
+          <mxGeometry x="1149" y="941.5" width="80" height="37" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.161;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="UONhqjysYR8CiSjD63Gk-35" target="M5rHcphhf6pZtaojcMGI-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-35" value="...." style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=11;fontColor=#ffffff;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="1036.5" width="80" height="37" as="geometry" />
+          <mxGeometry x="1250" y="941.5" width="80" height="37" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-38" value="MappedFile队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1104" y="1073.5" width="90" height="30" as="geometry" />
+          <mxGeometry x="1144" y="978.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UONhqjysYR8CiSjD63Gk-41" value="管理MappedFile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="875" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UONhqjysYR8CiSjD63Gk-44" value="为了对MappedFile的创建进行并发控制，所以使用了一个分配线程" style="text;html=1;strokeColor=#A50040;fillColor=#d80073;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=11;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="705" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UONhqjysYR8CiSjD63Gk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-64" target="M5rHcphhf6pZtaojcMGI-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UONhqjysYR8CiSjD63Gk-47" value="getLastMappedFile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" connectable="0" parent="UONhqjysYR8CiSjD63Gk-46">
+          <mxGeometry x="0.0556" y="2" relative="1" as="geometry">
+            <mxPoint x="30" y="2" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
