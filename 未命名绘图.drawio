@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T17:39:18.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9bYG7qTHdGIQJhis1zUq" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-08T17:41:05.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nHzco1U9UeUSRYzQjZgb" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1483" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1673,6 +1673,33 @@
           <mxGeometry y="30" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-96" value="4字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="UONhqjysYR8CiSjD63Gk-94">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1080" y="1620" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-2" value="消息Flag" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-1">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-3" value="4字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-1">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1190" y="1620" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-6" value="队列偏移量" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-5">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-7" value="8字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-5">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1300" y="1620" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-9" value="磁盘物流偏移量" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-8">
+          <mxGeometry y="30" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9Fpa7yqBvgkDrjQwkVgM-10" value="8字节" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" vertex="1" parent="9Fpa7yqBvgkDrjQwkVgM-8">
           <mxGeometry width="110" height="30" as="geometry" />
         </mxCell>
       </root>
