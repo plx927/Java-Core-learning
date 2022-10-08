@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T15:48:25.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Aq8lnHJ-CN4WM6hGrrdI" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-08T16:02:27.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="GtLlEd0NX9EkJdu-Fel_" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1426,13 +1426,13 @@
         <mxCell id="M5rHcphhf6pZtaojcMGI-46" value="ByteBuffer&lt;br&gt;内存映射文件" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1620" y="985" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-65" value="" style="group;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" connectable="0" parent="1">
+        <mxCell id="M5rHcphhf6pZtaojcMGI-65" value="" style="group;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="775" y="915" width="190" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-4" value="CommitLog&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-65">
+        <mxCell id="M5rHcphhf6pZtaojcMGI-4" value="CommitLog&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-65">
           <mxGeometry y="32.69" width="190" height="67.31" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-64" value="磁盘数据存储组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-65">
+        <mxCell id="M5rHcphhf6pZtaojcMGI-64" value="磁盘数据存储组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-65">
           <mxGeometry width="190" height="32.69" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-66" value="" style="group" vertex="1" connectable="0" parent="1">
