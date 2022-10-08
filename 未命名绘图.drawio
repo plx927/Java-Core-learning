@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T15:36:43.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="cyV8rrr1rTXHNaTOuQBh" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-08T15:37:06.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0xpVEWlGugksSOiaWhF5" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1038" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1273,6 +1273,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UONhqjysYR8CiSjD63Gk-36" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;rounded=0;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-74" target="UONhqjysYR8CiSjD63Gk-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-1" target="M5rHcphhf6pZtaojcMGI-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1522,11 +1525,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UONhqjysYR8CiSjD63Gk-36" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;rounded=0;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-74" target="UONhqjysYR8CiSjD63Gk-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-74" value="MappedFileQueue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="930" width="130" height="40" as="geometry" />
+          <mxGeometry x="1090" y="905" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UONhqjysYR8CiSjD63Gk-30" value="&lt;span style=&quot;&quot;&gt;1.TOTAL_MAPPED_VITUAL_MEMORY：总的虚拟内存使用量&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;2. TOTAL_MAPPED_FILES：创建内存映射文件的数量&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;3.wrotePosition：当前内存映射文件（commitLog）写入的偏移量&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;4.flushedPosition：当前内存映射文件（commitLog）刷盘的偏移量&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;5. fileSize：commitLog文件的大小，默认1G.&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;6. fileOffset：commitLog在物理磁盘上的偏移量，通过文件名解析出来&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;7. fileName： commitLog文件的全路径&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;8. MappedByteBuffer：虚拟内存&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=11;fontColor=#000000;align=left;verticalAlign=top;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
           <mxGeometry x="1810" y="755" width="420" height="130" as="geometry" />
