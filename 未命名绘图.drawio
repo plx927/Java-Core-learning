@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T15:56:38.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="oPWW_sJEJCe7GFcckWM6" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-09T16:21:43.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="pRMncYuv_iPw3xDc1FXV" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1483" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1269,7 +1269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qr40E1z2S4_9igoRmoSC" name="存储架构">
-    <mxGraphModel dx="1483" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="4080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1282,35 +1282,40 @@
         <mxCell id="UONhqjysYR8CiSjD63Gk-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-1" target="M5rHcphhf6pZtaojcMGI-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-1" target="XxPBR1FYyLQQC2A7_FX0-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="340" />
+              <mxPoint x="750" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-1" value="DefaultMessageStore&lt;br&gt;消息存储组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="540" width="300" height="80" as="geometry" />
+          <mxGeometry x="860" y="270" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-2" value="MessageStore" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="685" y="430" width="290" height="55" as="geometry" />
+          <mxGeometry x="865" y="160" width="290" height="55" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-7" value="ConsumeQueueTable&lt;br&gt;Map&amp;lt;Topic,Map&amp;lt;队列ID,ConsumeQueue&amp;gt;&lt;br&gt;消费队列内存数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="375" y="340" width="250" height="50" as="geometry" />
+          <mxGeometry x="570" y="175" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-8" value="FlushConsumeService&lt;br&gt;消费队列服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="610" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-9" value="CleanCommitLogService&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="230" width="160" height="50" as="geometry" />
+          <mxGeometry x="1700" y="290" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-10" value="CleanConsumeQueueService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="45" y="320" width="170" height="50" as="geometry" />
+          <mxGeometry x="1500" y="-60" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-11" value="IndexService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="155" y="450" width="120" height="40" as="geometry" />
+          <mxGeometry x="1740" y="130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-13" value="HAService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="690" width="120" height="40" as="geometry" />
+          <mxGeometry x="1700" y="370" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-14" value="StoreCheckPoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="1115" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="M5rHcphhf6pZtaojcMGI-15" value="CommitLogDispatcher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="515" width="170" height="50" as="geometry" />
+        <mxCell id="M5rHcphhf6pZtaojcMGI-15" value="CommitLogDispatcherBuildConsumeQueue" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="70" y="545" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-17" value="" style="group;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1330" y="635" width="180" height="70" as="geometry" />
@@ -1457,7 +1462,7 @@
           <mxGeometry y="10" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="SdFkZbLHOj_fo171HmIQ-1" value="存储路径：${user.home}/store/commitLog" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="520" y="765" width="240" height="30" as="geometry" />
+          <mxGeometry x="260" y="930.5" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BduLzOYX5bW_NTIR9JDn-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="BduLzOYX5bW_NTIR9JDn-19" target="M5rHcphhf6pZtaojcMGI-46">
           <mxGeometry relative="1" as="geometry">
@@ -1634,8 +1639,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="670" y="770" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="690" y="860" />
-              <mxPoint x="648" y="860" />
+              <mxPoint x="648" y="946" />
+              <mxPoint x="648" y="946" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1828,6 +1833,75 @@
               <mxPoint x="515" y="932" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="XxPBR1FYyLQQC2A7_FX0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1410" y="635" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="968" y="570" />
+              <mxPoint x="1410" y="570" />
+              <mxPoint x="1410" y="635" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 1;" edge="1" parent="1" source="XxPBR1FYyLQQC2A7_FX0-2" target="XxPBR1FYyLQQC2A7_FX0-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1010" y="485" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;dashPattern=1 2;entryX=0.603;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XxPBR1FYyLQQC2A7_FX0-2" target="M5rHcphhf6pZtaojcMGI-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="807" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="848" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-2" value="CommitLog相关组件" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="875" y="595" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-5" value="CleanCommitLogService" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1209" y="455" width="201" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-13" value="根据上次读取的偏移量查询MappedFile&lt;br&gt;是否有新数据写入" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XxPBR1FYyLQQC2A7_FX0-9" target="M5rHcphhf6pZtaojcMGI-64">
+          <mxGeometry x="-0.6569" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-18" value="数据发生变化时" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XxPBR1FYyLQQC2A7_FX0-9" target="XxPBR1FYyLQQC2A7_FX0-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-9" value="ReputMessageService&lt;br&gt;异步线程，轮询监听commitLog写入数据的变化" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fontColor=#ffffff;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="480" width="290" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-16" value="CommitLogDispatcherBuildIndex" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="695" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-19" value="分发" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XxPBR1FYyLQQC2A7_FX0-17" target="M5rHcphhf6pZtaojcMGI-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Georgia;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XxPBR1FYyLQQC2A7_FX0-17" target="XxPBR1FYyLQQC2A7_FX0-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-21" value="分发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Georgia;fontColor=#000000;" vertex="1" connectable="0" parent="XxPBR1FYyLQQC2A7_FX0-20">
+          <mxGeometry x="-0.0636" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-17" value="DispatchRequest" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Georgia;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
