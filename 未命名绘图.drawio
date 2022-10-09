@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-08T17:51:22.106Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="enfPCH1XyBWwEDfMPmHN" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-09T15:56:38.308Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="oPWW_sJEJCe7GFcckWM6" version="20.3.3" type="github" pages="6">
   <diagram id="wUIe8mJwas9haFbdkOFD" name="NameServer架构">
     <mxGraphModel dx="1483" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -1304,7 +1304,7 @@
           <mxGeometry x="155" y="450" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-13" value="HAService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="835" width="120" height="40" as="geometry" />
+          <mxGeometry x="115" y="690" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-14" value="StoreCheckPoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="1115" width="120" height="40" as="geometry" />
@@ -1448,7 +1448,7 @@
           <mxGeometry width="150" height="25" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-72" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="375" y="795" width="130" height="70" as="geometry" />
+          <mxGeometry x="450" y="830" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="M5rHcphhf6pZtaojcMGI-70" value="MessageStoreConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M5rHcphhf6pZtaojcMGI-72">
           <mxGeometry y="30" width="130" height="40" as="geometry" />
@@ -1821,6 +1821,13 @@
         </mxCell>
         <mxCell id="9Fpa7yqBvgkDrjQwkVgM-56" value="RocketMQ 消息内容格式" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=#e3c800;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="1080" y="1060" width="990" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XxPBR1FYyLQQC2A7_FX0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="M5rHcphhf6pZtaojcMGI-64" target="M5rHcphhf6pZtaojcMGI-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="515" y="932" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
