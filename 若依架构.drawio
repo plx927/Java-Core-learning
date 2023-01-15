@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T14:27:08.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.8.0" etag="JzN0hiDZKVX5gqKMVdVK" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-15T15:04:23.219Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.8.0" etag="myM7wuSQthPWFPqs2_9r" type="github" pages="2">
   <diagram id="d0cNo84Df50XgzoV9EVo" name="第 1 页">
     <mxGraphModel dx="1144" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -24,6 +24,89 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mfCWikr9IQnNI9C7oORM-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfCWikr9IQnNI9C7oORM-2" target="mfCWikr9IQnNI9C7oORM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-9" value="通过调用认证器来进行认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mfCWikr9IQnNI9C7oORM-8">
+          <mxGeometry x="-0.1857" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-2" value="UserNamePasswordAuthenticationFilter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="130" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-4" value="封装认证的结果" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="145" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-11" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfCWikr9IQnNI9C7oORM-7" target="mfCWikr9IQnNI9C7oORM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="mfCWikr9IQnNI9C7oORM-7" target="mfCWikr9IQnNI9C7oORM-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="605" y="240" />
+              <mxPoint x="680" y="240" />
+              <mxPoint x="680" y="190" />
+              <mxPoint x="775" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mfCWikr9IQnNI9C7oORM-7" target="mfCWikr9IQnNI9C7oORM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-7" value="AuthenticationManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="260" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-13" value="失败" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfCWikr9IQnNI9C7oORM-10" target="mfCWikr9IQnNI9C7oORM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-15" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfCWikr9IQnNI9C7oORM-10" target="mfCWikr9IQnNI9C7oORM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-16" value="成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mfCWikr9IQnNI9C7oORM-15">
+          <mxGeometry x="-0.25" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-10" value="认证成功" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-12" value="回调认证失败处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-14" value="执行Session策略" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-17" value="会通过attemptAuthentication来处理进行执行" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="650" y="130" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-20" value="具体的认证过程" style="shape=umlFrame;whiteSpace=wrap;html=1;width=100;height=30;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="780" y="230" width="870" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfCWikr9IQnNI9C7oORM-23" target="mfCWikr9IQnNI9C7oORM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfCWikr9IQnNI9C7oORM-23" target="mfCWikr9IQnNI9C7oORM-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-23" value="生成&lt;br&gt;UsernamePasswordAuthenticationToken" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="790" y="270" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfCWikr9IQnNI9C7oORM-24" target="mfCWikr9IQnNI9C7oORM-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-24" value="获取到AuthticationManger来执行认证" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
+          <mxGeometry x="1095" y="270" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfCWikr9IQnNI9C7oORM-26" target="mfCWikr9IQnNI9C7oORM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-26" value="到得Authentication对象" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=rgb(255, 255, 255);" vertex="1" parent="1">
+          <mxGeometry x="1415" y="270" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfCWikr9IQnNI9C7oORM-29" value="它是Authentication的一个实现" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="980" y="135" width="170" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
