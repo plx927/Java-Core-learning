@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T18:01:48.180Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="_Mb3W-tV8A8EpKxNoE0C" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T18:03:16.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pHfBpeyKzX9BkmqeH4EE" version="21.1.4" type="github">
   <diagram name="第 1 页" id="e_GZHFdNOrCHTup9UNsT">
     <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#ffffff" math="0" shadow="0">
       <root>
@@ -36,6 +36,9 @@
         </mxCell>
         <mxCell id="RsKwWJYFNeszHucl-iUa-18" value="会员中心" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="RsKwWJYFNeszHucl-iUa-16" vertex="1">
           <mxGeometry width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7iVzLVZkadfMaypqnPs--12" value="会员权益" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="RsKwWJYFNeszHucl-iUa-16">
+          <mxGeometry x="10" y="110" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RsKwWJYFNeszHucl-iUa-19" value="" style="group;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="460" y="260" width="90" height="230" as="geometry" />
@@ -190,6 +193,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7iVzLVZkadfMaypqnPs--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7iVzLVZkadfMaypqnPs--5" target="7iVzLVZkadfMaypqnPs--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7iVzLVZkadfMaypqnPs--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7iVzLVZkadfMaypqnPs--7" target="7iVzLVZkadfMaypqnPs--12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
